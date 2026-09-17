@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armature Supply Co. · Commercial Representation</title>
+  <style>
+    :root {
+      --bg: #0d0e11;
+      --card-bg: #14161b;
+      --border: #232730;
+      --text-main: #e6e8eb;
+      --text-muted: #8b929e;
+      --accent: #f3f4f6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      max-width: 480px;
+      width: 100%;
+      padding: 2.25rem;
+    }
+    .badge {
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.85rem;
+    }
+    p {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.55;
+      margin-bottom: 1.75rem;
+    }
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin-bottom: 2rem;
+    }
+    a.btn {
+      display: block;
+      text-align: center;
+      padding: 0.7rem 1rem;
+      font-size: 0.88rem;
+      font-weight: 500;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.15s ease;
+    }
+    a.btn-primary {
+      background: var(--accent);
+      color: #0d0e11;
+    }
+    a.btn-primary:hover { background: #ffffff; }
+    a.btn-secondary {
+      border: 1px solid var(--border);
+      color: var(--text-main);
+    }
+    a.btn-secondary:hover { background: #1c2027; }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1.25rem;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="card">
+    <div class="badge">ARM/MED · Talent Management</div>
+    <h1>Armature Supply Co.</h1>
+    <p>
+      Commercial representation, partnership operations, and business development for specialized digital creators, cultural educators, and independent researchers across the UK and international markets.
+    </p>
+
+    <div class="actions">
+      <a href="mailto:hi@supply.armatureops.co.uk" class="btn btn-primary">Direct Brand Inquiries</a>
+      <a href="https://armatureops.co.uk" class="btn btn-secondary">Armature Operations Ltd &rarr;</a>
+    </div>
+
+    <footer>
+      Armature Media is a trading name of Armature Operations Limited.<br>
+      Registered in England & Wales · Company No. 17432998
+    </footer>
+  </main>
+
+</body>
+</html>
